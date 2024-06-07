@@ -1,24 +1,47 @@
+li{
+    outline:5px solid rgb(239, 170, 110);
+    margin:32px;
+    border-radius: 12px;    
+    background-color: rgb(239, 170, 110);
+    width: 360px;
+    height: 80px;
+    align-content:center;
+    text-align: center;
+}
+
+ul{
+    align-content: center;
+}
+
 body{
-    background-color: rgb(97, 50, 16);;
+    background-color: rgb(97, 50, 16);
 }
 
 h1{
     color: blanchedalmond;
+    text-align:center;
+    padding: 5px;
 }
 
 ul{
     color: wheat; 
     font-size: larger;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+li{
+    padding: 3px;
 }
 
 a:link {
-    color: lightcoral;
+    color: rgb(189, 94, 46);
     background-color: transparent;
     text-decoration: none;
   }
   
   a:visited {
-    color: pink;
+    color: rgb(93, 58, 20);
     background-color: transparent;
     text-decoration: none;
   }
