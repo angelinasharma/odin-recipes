@@ -1,20 +1,22 @@
+*{
+    align-content: center;
+}
+
 li{
     outline:5px solid rgb(239, 170, 110);
     margin:32px;
     border-radius: 12px;    
     background-color: rgb(239, 170, 110);
     width: 360px;
-    height: 80px;
+    height: 180px;
     align-content:center;
     text-align: center;
 }
 
-ul{
-    align-content: center;
-}
 
 body{
     background-color: rgb(97, 50, 16);
+
 }
 
 h1{
@@ -24,10 +26,11 @@ h1{
 }
 
 ul{
-    color: wheat; 
+    color: rgb(97, 50, 16);
     font-size: larger;
     padding-left: 50px;
     padding-top: 30px;
+    align-content: center;
 }
 
 li{
