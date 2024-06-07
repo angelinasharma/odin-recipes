@@ -1,5 +1,14 @@
+body{
+    background-color: rgb(97, 50, 16);;
+}
+
 h1{
-    color: beige;
+    color: blanchedalmond;
+}
+
+ul{
+    color: wheat; 
+    font-size: larger;
 }
 
 a:link {
