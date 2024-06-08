@@ -1,7 +1,3 @@
-*{
-    align-content: center;
-}
-
 li{
     outline:5px solid rgb(239, 170, 110);
     margin:32px;
@@ -15,7 +11,7 @@ li{
 
 
 body{
-    background-color: rgb(97, 50, 16);
+    background-color: #AF8260;
 
 }
 
@@ -60,3 +56,19 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+
+button{
+  height: 180px;
+  width: 360px;
+  align-items: center;
+  padding: 30px;
+  margin:30px;
+  border-radius: 30px;
+  background-color: #E4C59E;
+  font-size:24px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700px;
+  position:relative;
+  justify-content: center;
+}
+
