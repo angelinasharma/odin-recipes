@@ -11,14 +11,18 @@ li{
 
 
 body{
-    background-color: #AF8260;
+    
+    background-image: url("—Pngtree—pastel\ color\ aesthetic\ background\ with_1660223.png");
+    background-size:cover;
 
 }
 
 h1{
-    color: blanchedalmond;
+    color: hwb(27 20% 63%);
     text-align:center;
     padding: 5px;
+    margin-bottom: 75px;
+    font-size: 52px;
 }
 
 ul{
@@ -62,13 +66,26 @@ button{
   width: 360px;
   align-items: center;
   padding: 30px;
-  margin:30px;
-  border-radius: 30px;
-  background-color: #E4C59E;
-  font-size:24px;
-  font-family: 'Times New Roman', Times, serif;
+  border-radius: 42px;
+  background-color: #d9c6ae;
+  font-size:28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 700px;
   position:relative;
   justify-content: center;
+  margin: 18px;
+}
+
+.container {
+  height: 200px;
+  position: relative;
+}
+.buttons {
+  margin: 0;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
