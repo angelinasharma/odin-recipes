@@ -15,6 +15,9 @@ body{
     background-image: url("—Pngtree—pastel\ color\ aesthetic\ background\ with_1660223.png");
     background-size:cover;
     background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-position: center
 
 }
 
@@ -68,7 +71,7 @@ button{
   align-items: center;
   padding: 30px;
   border-radius: 42px;
-  background-color: #d9c6ae;
+  background-color: #d6c0a6;
   font-size:28px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 700px;
@@ -77,7 +80,9 @@ button{
   margin: 18px;
   color: rgb(88, 61, 32);
   border-style:double;
+  box-shadow: 0 9px #999;
 }
+
 
 .container {
   height: 200px;
@@ -90,5 +95,15 @@ button{
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.button:hover{
+  background-color: #c7b197;
+}
+
+.botton:active{
+  background-color: #917a60;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px)
 }
 
